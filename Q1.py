@@ -17,3 +17,8 @@ mycursor.execute(sql, val)
 mydb.commit()
 
 print(mycursor.rowcount, "record inserted.")
+def fetch():
+    cursor.execute("select * from tablename")
+    for row in cursor.fetchall():
+        yield row
+print(list(fetch()))
