@@ -1,0 +1,20 @@
+git assignment:
+
+
+1.4 Questions: 
+Q-1 and Q2 when we add new file over there then  it is untracked if we use add then it will add to the tracked files and commit to the file
+
+
+
+if we edit some file in the commited file then it will be in unstaged 
+when the file is in unstaged?
+we use below command to for staging and commiting the file
+
+git commit -a -m "my commit message"
+Q-3
+Git pull- if any changes made in the remote repository then the local is not upto date then we use pull command to fetch the remote repository files to the local
+Git merge- It will merge the local master branch to the child branches 
+
+Q-4
+Git pull- It gives confusion to the developers that are working over the same code makes n changes.
+Git Pull --rebase-  supppose there are n commit over the code then when we use rebase then it moves to the final commit it does create mess to the other developers
