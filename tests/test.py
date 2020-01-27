@@ -1,10 +1,12 @@
 import unittest
 from unittest.mock import patch
-from Q3 import sets
-from Q4 import array
-from Q10 import Reverselter
+from src.Q3 import sets
+from src.Q4 import array
+from src.Q10 import Reverselter
 # from src.Q4 import array
 from io import StringIO
+
+
 class Test(unittest.TestCase):
     def setUp(self):
         pass
@@ -26,3 +28,5 @@ class Test(unittest.TestCase):
         expected = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
         actual = Reverselter(lis)
         self.assertEqual(expected,actual)
+    def tearDown(self):
+        pass
